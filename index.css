@@ -1,0 +1,22 @@
+#lap-time {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.watch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 100px
+}
+
+#time {
+    font-size: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="watch-container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch-time" id="time">
+            0:00
+        </div>
+        <div class="btns">
+            <button onclick="startStop()">Start</button>
+            <button onclick="restartWatch()">Restart</button>
+            <button onclick="lapWatch()">Lap</button>
+        </div>
+        </div>
+
+        <div>
+            <h2>Lap Times:</h2>
+            <ul id="laps">
+                <li id="lap-time"></li>
+            </ul>
+            <button onclick="clearLap()">Clear Lap Times</button>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
